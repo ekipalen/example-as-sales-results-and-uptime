@@ -53,7 +53,7 @@ def get_windows_uptime():
 
         uptime = datetime.datetime.now() - last_boot_time
         uptime = format_timedelta(uptime)
-        output = f"- Computer has been running for: '{uptime}'"
+        output = f"Your computer has been running for: '{uptime}'"
         return output
     except Exception as e:
         return f"Failed to get uptime: {str(e)}"
@@ -62,7 +62,7 @@ def get_windows_uptime():
 def get_macos_uptime():
     try:
         uptime_str = subprocess.check_output("uptime", shell=True).decode()
-        output = f"- Computer uptime details: '{uptime_str}'"
+        output = f"Your computer uptime details: '{uptime_str}'"
         return output
     except Exception as e:
         return f"Failed to get uptime: {str(e)}"
