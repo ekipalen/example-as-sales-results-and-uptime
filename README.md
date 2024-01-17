@@ -28,8 +28,8 @@ When debugging your Actions Python code, you probably do not want to give the in
 ## What does this example Action do?
 
 This has two Actions: 
-1. Submit sales results to Robot Spare Industries website. Sales target needs to be between 5.000 and 100.000 in increments of 5.000.   
-Example prompt: "Submit sales results for John Doe. He has a target of 35.000 and the result is 40k."
+1. Submit sales results to Robot Spare Industries website. Sales target needs to be between 5,000 and 100,000 in increments of 5,000.   
+Example prompt: "Submit sales results for John Doe. He has a target of 35,000 and the result is 40k."
 
 ![Sales Target](/docs/sales_target.png)
 
